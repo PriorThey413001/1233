@@ -14,6 +14,9 @@ if msg == "s!check" then
 wait(0) local A_1 = "[Slap.cc]" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
 end
 
+if msg == "s!pray" then 
+loadAnimation("rbxassetid://3487719500");
+end
 
 if msg == "s!freeze" then 
 game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
